@@ -12,4 +12,5 @@ We combine `[On-Time Delivery %]` and `[Average Delivery Delay]` into a weighted
 ```dax
 Carrier Score = 
 ([On-Time Delivery %] * 0.7) + 
+
 (DIVIDE(1, [Average Delivery Delay] + 1) * 0.3)
