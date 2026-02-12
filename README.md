@@ -124,11 +124,23 @@ RETURN DIVIDE(OnTime, Total, 0)
 - Power BI Desktop (latest version)
 - 8GB RAM minimum
 
-### Steps:
-1. Download `DataCo_SupplyChain_Dashboard.pbix`
-2. Open in Power BI Desktop
-3. (Optional) Refresh data with updated CSV
-4. Explore interactive dashboards
+### Setup Steps:
+
+1. **Download and extract data:**
+```bash
+   # Extract the compressed dataset
+   unzip Cleaned_Logistics_Data.zip
+```
+
+2. **Open dashboard:**
+   - Download `DataCo_SupplyChain_Dashboard.pbix`
+   - Open in Power BI Desktop
+   - When prompted for data source, browse to extracted CSV file
+
+3. **Refresh data:**
+   - Home → Refresh (if needed)
+
+4. **Explore dashboards!**
 
 ---
 
